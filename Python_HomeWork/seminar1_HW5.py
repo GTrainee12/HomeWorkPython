@@ -5,5 +5,3 @@ y_coordinate_B = float(input('Введите координату точки B �
 
 distance = (((x_coordinate_B - x_coordinate_A) ** 2+ (y_coordinate_B - y_coordinate_A) ** 2)** 0.5)
 print(distance)
-
-
