@@ -3,7 +3,7 @@ n = int(input('Введите число: '))
 def get_fibonacci(n):
     f_n = []
     a, b = 1, 1
-    for i in range(n-1):  # Номера фибоначи
+    for i in range(n-0):  # Номера фибоначи
         f_n.append(a)
         a, b = b, a + b
     a, b = 0, 1
